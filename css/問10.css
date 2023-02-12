@@ -1,0 +1,39 @@
+.card {
+  width: 360px;
+  margin: 100px auto;
+}
+.card-image img {
+  width: 100%
+}
+.card-category {
+  background: #008888;
+  font-size: 14px;
+  color: #fff;
+  margin-top: 15px;
+  display: inline-block;
+}
+.card-text {
+  font-size: 18px;
+  margin-bottom: 30px;
+  
+}
+.card-content {
+/* 中央に揃えようとしたが機能していない。*/
+  border:2px solid green;
+  margin: 0 auto;
+}
+.card-container {
+  display: flex;
+  justify-content: flex-end;
+  border:2px solid red;
+}
+.card-keyword {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color:#008888;
+}
+.card-date {
+  font-size: 14px;
+  margin-left: 20px;
+  color: #888888
+}
